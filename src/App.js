@@ -1,14 +1,17 @@
 // import logo from './logo.svg';
+import Header from './components/Common/Header';
+import Home from './components/Home';
+import Footer from './components/Common/Footer';
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Ai Story Weaver</h1>
-      </header>
-    </div>
-  );
+	return (
+		<div className='App'>
+			<Header />
+			<Home />
+			<Footer />
+		</div>
+	);
 }
 
 export default App;
