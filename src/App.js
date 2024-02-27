@@ -1,16 +1,16 @@
-// import logo from './logo.svg';
-import Header from './components/Common/Header';
-import Home from './components/Home';
-import Footer from './components/Common/Footer';
-import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+import Home from './pages/Home';
+import About from './pages/About';
+import Contact from './pages/Contact';
 
 function App() {
 	return (
-		<div className='App'>
-			<Header />
-			<Home />
-			<Footer />
-		</div>
+		<BrowserRouter>
+			<Routes>
+				
+			</Routes>
+		</BrowserRouter>
 	);
 }
 

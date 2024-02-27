@@ -3,7 +3,7 @@ import React from 'react';
 function Home() {
 	return (
 		<>
-			<section className='bg-dark text-light p-5 text-center'>
+			<section className='bg-dark text-light p-5 text-center text-sm-start'>
 				<div className='container'>
 					<div className='d-sm-flex'>
 						<h1>
@@ -11,15 +11,12 @@ function Home() {
 								Let your imagination run wild
 							</span>
 						</h1>
+						{/* <p className='lead my-4'>
+							Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. Magni in corrupti iusto dolor quibusdam
+							impedit?
+						</p> */}
 					</div>
-					{/* <img
-						class='img-fluid w-50'
-						src={
-							require('./images/undraw_ideation_re_8i2h.svg')
-								.default
-						}
-						alt=''
-					/> */}
 				</div>
 			</section>
 		</>
