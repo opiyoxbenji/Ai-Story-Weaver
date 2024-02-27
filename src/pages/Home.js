@@ -1,4 +1,6 @@
 import React from 'react';
+// import Header from '../components/Header';
+// import Footer from '../components/Footer';
 
 function Home() {
 	return (
@@ -11,11 +13,6 @@ function Home() {
 								Let your imagination run wild
 							</span>
 						</h1>
-						{/* <p className='lead my-4'>
-							Lorem ipsum dolor sit amet consectetur adipisicing
-							elit. Magni in corrupti iusto dolor quibusdam
-							impedit?
-						</p> */}
 					</div>
 				</div>
 			</section>

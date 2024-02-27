@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/styles.css';
+// import '../css/styles.css';
 
 function Header() {
 	return (
@@ -39,6 +39,9 @@ function Header() {
 					</div>
 				</div>
 			</nav>
+
+			{/* Body Section */}
+			
 		</>
 	);
 }
