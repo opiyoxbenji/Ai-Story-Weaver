@@ -1,7 +1,7 @@
 import React from 'react';
-// import '../css/styles.css';
+import { Link } from 'react-router-dom';
 
-function Header() {
+function Navbar() {
 	return (
 		<>
 			<nav className='navbar navbar-expand-lg bg-dark navbar-dark'>
@@ -22,28 +22,25 @@ function Header() {
 						<ul className='navbar-nav ms-auto'>
 							<li className='nav-item'>
 								<a href='#home' className='nav-link'>
-									Home
+									<Link to='/'>Home</Link>
 								</a>
 							</li>
 							<li className='nav-item'>
 								<a href='#about' className='nav-link'>
-									About
+									<Link to='/about'>About</Link>
 								</a>
 							</li>
 							<li className='nav-item'>
 								<a href='#contact' className='nav-link'>
-									Contact
+									<Link to='/contact'>Contact</Link>
 								</a>
 							</li>
 						</ul>
 					</div>
 				</div>
 			</nav>
-
-			{/* Body Section */}
-			
 		</>
 	);
 }
 
-export default Header;
+export default Navbar;
