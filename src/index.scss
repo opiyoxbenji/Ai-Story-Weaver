@@ -35,19 +35,36 @@ h5 {
 }
 
 .link:hover {
-	color: yellow;
+	color: #ffc107;
 }
 
-.text {
-	align-items: center;
+.display-1 {
+	font-size: 1000%;
+}
+
+.custom-btn {
+	color: lightgrey;
+	text-decoration: none;
+	transition: color 0.3s;
+	&:hover {
+		color: white;
+	}
+}
+
+.navbar-brand {
+	color: lightgrey;
+	transition: color 0.3s;
+	&:hover {
+		color: white;
+	}
 }
 
 .navbar-nav {
 	.nav-link {
-		text-decoration: none; // Remove underline
-		color: grey; // Set default color
+		text-decoration: none;
+		color: grey;
 		&.active {
-			color: purple; // Set active color
+			color: #ffc107;
 		}
 	}
 }
