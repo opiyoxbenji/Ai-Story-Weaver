@@ -5,6 +5,7 @@ body {
 		'Helvetica Neue', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	background-color: #d0d1de;
 }
 
 code {
@@ -24,6 +25,15 @@ h5 {
 	line-height: 1.3;
 	text-transform: capitalize;
 	letter-spacing: var(--letterSpacing);
+}
+
+.heading {
+	color: #6610f2;
+	padding-top: 0.5rem;
+}
+
+.p {
+	margin-top: 3;
 }
 
 .link {
@@ -67,4 +77,14 @@ h5 {
 			color: #ffc107;
 		}
 	}
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: black;
+	color: #ffc107;
+	padding: 10px 0;
 }

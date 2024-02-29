@@ -3,7 +3,11 @@ import React from 'react';
 function Footer() {
 	return (
 		<>
-			<h6>hola</h6>
+			<footer className='footer'>
+				<div className='container text-center'>
+					<h6>&copy; 2024 Dream Weaver</h6>
+				</div>
+			</footer>
 		</>
 	);
 }

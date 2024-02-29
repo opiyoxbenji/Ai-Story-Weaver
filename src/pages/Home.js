@@ -6,14 +6,11 @@ function Home() {
 		<>
 			<section className='text-light p-5 text-center text-sm-start'>
 				<div className='container'>
-					<div className='d-sm-flex'>
-						<h1>
-							<span className='text-warning'>
-								<h1 className='text'>
-									Let your imagination run wild
-								</h1>
-							</span>
+					<div className='d-sm-flex flex-column align-items-center'>
+						<h1 className='heading'>
+							Let your imagination run wild
 						</h1>
+						<p className='quotes '> "Dream big, think creative."</p>
 					</div>
 				</div>
 			</section>
