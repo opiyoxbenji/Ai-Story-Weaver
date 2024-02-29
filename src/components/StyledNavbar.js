@@ -1,15 +1,15 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import '../index.css';
+import '../index.scss';
 
 function Navbar() {
 	return (
 		<>
 			<nav className='navbar navbar-expand-lg bg-dark navbar-dark'>
 				<div className='container'>
-					<a href='#home' className='navbar-brand'>
+					<NavLink to='/' className='navbar-brand'>
 						Ai Story Weaver
-					</a>
+					</NavLink>
 
 					<button
 						className='navbar-toggler'
@@ -22,49 +22,28 @@ function Navbar() {
 					<div className='collapse navbar-collapse' id='navmenu'>
 						<ul className='navbar-nav ms-auto'>
 							<li className='nav-item'>
-								<a href='#home' className='nav-link'>
-									<NavLink
-										to='/'
-										style={({ isActive }) => {
-											return {
-												color: isActive
-													? 'purple'
-													: 'grey',
-											};
-										}}>
-										Home
-									</NavLink>
-								</a>
+								<NavLink
+									to='/'
+									className='nav-link'
+									activeClassName='active'>
+									Home
+								</NavLink>
 							</li>
 							<li className='nav-item'>
-								<a href='#about' className='nav-link'>
-									<NavLink
-										to='/about'
-										style={({ isActive }) => {
-											return {
-												color: isActive
-													? 'purple'
-													: 'grey',
-											};
-										}}>
-										About
-									</NavLink>
-								</a>
+								<NavLink
+									to='/about'
+									className='nav-link'
+									activeClassName='active'>
+									About
+								</NavLink>
 							</li>
 							<li className='nav-item'>
-								<a href='#contact' className='nav-link'>
-									<NavLink
-										to='/contact'
-										style={({ isActive }) => {
-											return {
-												color: isActive
-													? 'purple'
-													: 'grey',
-											};
-										}}>
-										Contact
-									</NavLink>
-								</a>
+								<NavLink
+									to='/contact'
+									className='nav-link'
+									activeClassName='active'>
+									Contact
+								</NavLink>
 							</li>
 						</ul>
 					</div>
@@ -73,6 +52,7 @@ function Navbar() {
 		</>
 	);
 }
+
 
 export default Navbar;
 

@@ -39,5 +39,15 @@ h5 {
 }
 
 .text {
-    align-items: center;
+	align-items: center;
+}
+
+.navbar-nav {
+	.nav-link {
+		text-decoration: none; // Remove underline
+		color: grey; // Set default color
+		&.active {
+			color: purple; // Set active color
+		}
+	}
 }
