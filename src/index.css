@@ -27,9 +27,13 @@ h5 {
 }
 
 .link {
-  color: var(--grey-500);
+	color: var(--grey-500);
 }
 
 .active {
-  color: var(--primary-500);
+	color: var(--primary-500);
+}
+
+.link:hover {
+	color: yellow;
 }
