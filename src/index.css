@@ -37,3 +37,7 @@ h5 {
 .link:hover {
 	color: yellow;
 }
+
+.text {
+    align-items: center;
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+import '../index.css';
 
 function Home() {
 	return (
@@ -8,7 +9,8 @@ function Home() {
 					<div className='d-sm-flex'>
 						<h1>
 							<span className='text-warning'>
-								Let your imagination run wild
+								<h1 className='text'>Let your imagination run wild</h1>
+								
 							</span>
 						</h1>
 					</div>
