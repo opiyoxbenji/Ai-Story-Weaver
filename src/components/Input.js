@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../scss/input.scss';
+import styles from '../scss/input.css';
 
 function Input({ value, onChange, onClick }) {
 	return (

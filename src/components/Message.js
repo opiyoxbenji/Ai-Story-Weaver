@@ -2,7 +2,7 @@ import React from 'react';
 
 import bot from '../components/icons/bot1.png';
 import user from '../components/icons/user.png';
-import styles from '../scss/message.scss';
+import styles from '../scss/message.css';
 
 function Message({ role, content }) {
 	return (

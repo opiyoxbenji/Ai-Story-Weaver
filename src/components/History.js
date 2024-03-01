@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../scss/history.scss';
+import styles from '../scss/history.css';
 
 function History({ question, onClick }) {
 	return (
