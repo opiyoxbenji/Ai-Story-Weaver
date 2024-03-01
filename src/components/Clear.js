@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../scss/clear.scss ';
+import styles from '../scss/clear.scss';
 
 function Clear({ onClick }) {
 	return (
@@ -10,3 +10,4 @@ function Clear({ onClick }) {
 }
 
 export default Clear;
+ 
