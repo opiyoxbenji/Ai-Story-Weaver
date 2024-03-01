@@ -1,12 +1,11 @@
 import React from 'react';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../scss/app.scss';
 import { Container } from 'react-bootstrap';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-import { fab } from '@fortawesome/free-brands-svg-icons';
+// import { fab } from '@fortawesome/free-brands-svg-icons';
 import {
 	faSquareXTwitter,
 	faSquareInstagram,
@@ -17,20 +16,20 @@ import {
 function Contact() {
 	return (
 		<>
-			<div class='container'>
-				<div class='text-center mt-5'>
+			<div className='container'>
+				<div className='text-center mt-5'>
 					<h1>Let's Support Each Other's Success</h1>
 				</div>
 
-				<div class='row'>
-					<div class='col-lg-7 mx-auto'>
-						<div class='card mt-2 mx-auto p-4 bg-light'>
-							<div class='card-body bg-light'>
-								<form id='contact-form' role='form'>
-									<div class='controls'>
-										<div class='row'>
-											<div class='col-md-6'>
-												<div class='form-group'>
+				<div className='row'>
+					<div className='col-lg-7 mx-auto'>
+						<div className='card mt-2 mx-auto p-4 bg-light'>
+							<div className='card-body bg-light'>
+								<form id='contact-form'>
+									<div className='controls'>
+										<div className='row'>
+											<div className='col-md-6'>
+												<div className='form-group'>
 													<label for='form_name'>
 														Firstname
 													</label>
@@ -38,15 +37,15 @@ function Contact() {
 														id='form_name'
 														type='text'
 														name='name'
-														class='form-control'
+														className='form-control'
 														placeholder='Enter your firstname'
 														required='required'
 														data-error='Firstname is required.'
 													/>
 												</div>
 											</div>
-											<div class='col-md-6'>
-												<div class='form-group'>
+											<div className='col-md-6'>
+												<div className='form-group'>
 													<label for='form_lastname'>
 														Lastname
 													</label>
@@ -54,7 +53,7 @@ function Contact() {
 														id='form_lastname'
 														type='text'
 														name='surname'
-														class='form-control'
+														className='form-control'
 														placeholder='Enter your lastname'
 														required='required'
 														data-error='Lastname is required.'
@@ -62,9 +61,9 @@ function Contact() {
 												</div>
 											</div>
 										</div>
-										<div class='row'>
-											<div class='col-md-6'>
-												<div class='form-group'>
+										<div className='row'>
+											<div className='col-md-6'>
+												<div className='form-group'>
 													<label for='form_email'>
 														Email
 													</label>
@@ -72,22 +71,22 @@ function Contact() {
 														id='form_email'
 														type='email'
 														name='email'
-														class='form-control'
+														className='form-control'
 														placeholder='Enter your email'
 														required='required'
 														data-error='Valid email is required.'
 													/>
 												</div>
 											</div>
-											<div class='col-md-6'>
-												<div class='form-group'>
+											<div className='col-md-6'>
+												<div className='form-group'>
 													<label for='form_need'>
 														Please specify your need
 													</label>
 													<select
 														id='form_need'
 														name='need'
-														class='form-control'
+														className='form-control'
 														required='required'
 														data-error='Please specify your need.'>
 														<option
@@ -112,26 +111,26 @@ function Contact() {
 												</div>
 											</div>
 										</div>
-										<div class='row'>
-											<div class='col-md-12'>
-												<div class='form-group'>
+										<div className='row'>
+											<div className='col-md-12'>
+												<div className='form-group'>
 													<label for='form_message'>
 														Message
 													</label>
 													<textarea
 														id='form_message'
 														name='message'
-														class='form-control'
+														className='form-control'
 														placeholder='Write your message here.'
 														rows='4'
 														required='required'
 														data-error='Please, leave us a message.'></textarea>
 												</div>
 											</div>
-											<div class='col-md-12'>
+											<div className='col-md-12'>
 												<input
 													type='submit'
-													class='btn btn-success btn-send pt-2 btn-block'
+													className='btn btn-success btn-send pt-2 btn-block'
 													value='Send Message'
 												/>
 											</div>

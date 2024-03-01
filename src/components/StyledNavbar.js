@@ -1,11 +1,11 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import '../index.scss';
+import '../scss/index.scss';
 
 function Navbar() {
 	return (
 		<>
-			<nav className='navbar navbar-expand-lg bg-dark navbar-dark'>
+			<nav className='navbar navbar-expand-lg navbar-dark'>
 				<div className='container'>
 					<NavLink to='/' className='navbar-brand'>
 						Ai Story Weaver
@@ -53,10 +53,4 @@ function Navbar() {
 	);
 }
 
-
 export default Navbar;
-
-// for the classcase
-// className={({ isActive }) =>
-// 											isActive ? 'link active' : 'link'
-// 										}>
