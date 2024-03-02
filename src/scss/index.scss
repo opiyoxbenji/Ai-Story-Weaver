@@ -12,7 +12,7 @@ body {
 		'Helvetica Neue', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	background-color: grey;
+	background-color: #f1f2ec;
 }
 
 code {
@@ -43,7 +43,7 @@ h5 {
 // Paragraph
 .p {
 	margin-top: 3;
-}
+} 
 
 // Links
 .link {
@@ -73,9 +73,10 @@ h5 {
 
 // Navbar
 .navbar {
-	background-color: #114232;
+	background-color: #34365d;
+	font-size: 1.2rem;
 	&-brand {
-		color: #ffc107;
+		color: #0cd354;
 		transition: color 0.3s;
 		&:hover {
 			color: white;
@@ -84,7 +85,7 @@ h5 {
 	&-nav {
 		.nav-link {
 			text-decoration: none;
-			color: grey;
+			color: white;
 			&.active {
 				color: #ffc107;
 			}
@@ -107,8 +108,8 @@ h5 {
 	bottom: 0;
 	left: 0;
 	width: 100%;
-	background-color: #114232;
-	color: #ffc107;
+	background-color: #34365d;
+	color: #0cd354;
 	padding-top: 0.5rem;
 }
 
