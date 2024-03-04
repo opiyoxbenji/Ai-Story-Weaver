@@ -1,11 +1,12 @@
 import React from 'react';
-// import { useState } from 'react';
 import '../scss/app.css';
 
-
 function Home() {
-	return <div><h4>Home</h4></div>;
-	
+	return (
+		<div>
+			<h1>home</h1>
+		</div>
+	);
 }
 
 export default Home;

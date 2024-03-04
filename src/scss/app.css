@@ -1,32 +1,33 @@
-.App {
-  display: grid;
-  grid-template-columns: auto 200px;
-  gap: 20px;
-  max-width: 1000px;
+.about-us {
+  padding: 2rem;
+  max-width: 700px;
   margin: 0 auto;
-  min-height: 100vh;
-  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
 }
 
-.Column {
-  color: white;
+.about-us h1 {
+  text-align: center;
 }
 
-.Title {
-  padding: 20px;
-  margin-bottom: 20px;
-  border-radius: 10px;
-  color: black;
-  /* background-color: rgb(218, 255, 170); */
-  background-color: #1b92bd;
+.team {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
-.Content {
-  height: calc(100vh - 200px);
-  overflow-y: scroll;
-  margin-bottom: 20px;
+.team-member {
+  text-align: center;
+  padding: 1rem;
 }
 
-::-webkit-scrollbar {
-  display: none;
+.team-member h3 {
+  margin-bottom: 0.5rem;
+}
+
+.about-us p {
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  text-align: center;
 }
