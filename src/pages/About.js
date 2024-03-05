@@ -1,31 +1,107 @@
 import React from 'react';
 import '../scss/app.css';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+	faSquareXTwitter,
+	faSquareInstagram,
+	faSquareGithub,
+	faDiscord,
+} from '@fortawesome/free-brands-svg-icons';
+
 function About() {
 	return (
-		<div className='about-us'>
-			<h1>About Us</h1>
-			<div className='team'>
-				<div className='team-member'>
-					<h3>**Colin Earle**</h3>
-					<p>Alx Student</p>
-					<p>
-						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex iste esse autem dignissimos minus dolore ab eligendi asperiores assumenda deleniti.
+		<div className='team-boxed'>
+			<div className='container'>
+				<div className='intro'>
+					<h2 className='text-center'>Our Team</h2>
+					<p className='text-center'>
+						Welcome to the heart of our project! We are a dynamic
+						duo passionate about storytelling and weaving magical
+						tales for our audience.
 					</p>
 				</div>
-				<div className='team-member'>
-					<h3>**Opiyo Benjamin**</h3>
-					<p>Alx Student</p>
-					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod tempora obcaecati necessitatibus molestias ullam! Veniam dolore similique, dicta officia ut ullam.
-					</p>
+				<div className='row people'>
+					<div className='col-md-6 col-lg-4 item'>
+						<div className='box'>
+							<img
+								className='rounded-circle'
+								src='assets/img/1.jpg'
+								alt='Benjamin Opiyo'
+							/>
+							<h3 className='name'>Benjamin Opiyo</h3>
+							<p className='title'>Alx Student</p>
+							<p className='description'>
+								Lorem ipsum, dolor sit amet consectetur
+								adipisicing elit. Culpa porro maiores voluptas
+								quidem dignissimos nostrum nemo soluta
+								perferendis.
+							</p>
+							<div className='social'>
+								<div className='singleCol social-media-icons-white d-flex justify-content-evenly'>
+									<a href='https://twitter.com/'>
+										<FontAwesomeIcon
+											icon={faSquareXTwitter}
+										/>
+									</a>
+									<a href='https://www.instagram.com/'>
+										<FontAwesomeIcon
+											icon={faSquareInstagram}
+										/>
+									</a>
+									<a href='https://github.com/'>
+										<FontAwesomeIcon
+											icon={faSquareGithub}
+										/>
+									</a>
+									<a href='https://discord.com/'>
+										<FontAwesomeIcon icon={faDiscord} />
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div className='col-md-6 col-lg-4 item'>
+						<div className='box'>
+							<img
+								className='rounded-circle'
+								src='assets/img/2.jpg'
+								alt='Colin Earle'
+							/>
+							<h3 className='name'>Colin Earle</h3>
+							<p className='title'>Alx Student</p>
+							<p className='description'>
+								Lorem ipsum dolor sit amet, consectetur
+								adipisicing elit. Molestiae quod nostrum
+								accusantium laudantium praesentium nam tempore
+								velit consectetur!
+							</p>
+							<div className='social'>
+								<div className='singleCol social-media-icons-white d-flex justify-content-evenly'>
+									<a href='https://twitter.com/'>
+										<FontAwesomeIcon
+											icon={faSquareXTwitter}
+										/>
+									</a>
+									<a href='https://www.instagram.com/'>
+										<FontAwesomeIcon
+											icon={faSquareInstagram}
+										/>
+									</a>
+									<a href='https://github.com/'>
+										<FontAwesomeIcon
+											icon={faSquareGithub}
+										/>
+									</a>
+									<a href='https://discord.com/'>
+										<FontAwesomeIcon icon={faDiscord} />
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
-			<p>
-				Our goal is to **help you on your story writing journey** by
-				providing tools and resources to spark your creativity and
-				support you in crafting your stories.
-			</p>
 		</div>
 	);
 }
