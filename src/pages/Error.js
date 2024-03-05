@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../scss/index.scss'; // Import your SCSS file to apply custom styles
+import '../styles/index.scss'; // Import your SCSS file to apply custom styles
 
 function Error() {
 	return (

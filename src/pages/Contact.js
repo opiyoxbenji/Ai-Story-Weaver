@@ -2,10 +2,7 @@ import React from 'react';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container } from 'react-bootstrap';
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
-// import { fab } from '@fortawesome/free-brands-svg-icons';
 import {
 	faSquareXTwitter,
 	faSquareInstagram,
