@@ -9,6 +9,7 @@ import {
 	faSquareGithub,
 	faDiscord,
 } from '@fortawesome/free-brands-svg-icons';
+import Footer from '../components/Footer';
 
 function Contact() {
 	return (
@@ -156,6 +157,7 @@ function Contact() {
 					</a>
 				</div>
 			</Container>
+			<Footer />
 		</>
 	);
 }

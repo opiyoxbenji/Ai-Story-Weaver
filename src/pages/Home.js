@@ -1,10 +1,12 @@
-import React from 'react';
+// import React, { useState } from 'react';
 import '../styles/index.scss';
 
 function Home() {
+
+
 	return (
-		<div>
-			<h1>home</h1>
+		<div className='App'>
+			<h1>gggg</h1>
 		</div>
 	);
 }

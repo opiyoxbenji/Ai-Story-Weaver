@@ -24,24 +24,33 @@ function Navbar() {
 							<li className='nav-item'>
 								<NavLink
 									to='/'
-									className='nav-link'
-									activeClassName='active'>
+									className={`nav-link ${
+										window.location.pathname === '/'
+											? 'active'
+											: ''
+									}`}>
 									Home
 								</NavLink>
 							</li>
 							<li className='nav-item'>
 								<NavLink
 									to='/about'
-									className='nav-link'
-									activeClassName='active'>
+									className={`nav-link ${
+										window.location.pathname === '/about'
+											? 'active'
+											: ''
+									}`}>
 									About
 								</NavLink>
 							</li>
 							<li className='nav-item'>
 								<NavLink
 									to='/contact'
-									className='nav-link'
-									activeClassName='active'>
+									className={`nav-link ${
+										window.location.pathname === '/contact'
+											? 'active'
+											: ''
+									}`}>
 									Contact
 								</NavLink>
 							</li>

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/index.scss'; // Import your SCSS file to apply custom styles
+import Footer from '../components/Footer';
 
 function Error() {
 	return (
@@ -22,6 +23,7 @@ function Error() {
 					</Link>
 				</div>
 			</div>
+			<Footer />
 		</section>
 	);
 }
