@@ -1,10 +1,10 @@
 import React from 'react';
-import '../styles/index.scss';
+// import styles from '../styles/page.css';
 
 function Home() {
 	return (
-		<div>
-			<h1>home</h1>
+		<div className="kake">
+			
 		</div>
 	);
 }
