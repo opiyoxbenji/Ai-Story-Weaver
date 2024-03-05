@@ -2,14 +2,16 @@ import React from 'react';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container } from 'react-bootstrap';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+// import { fab } from '@fortawesome/free-brands-svg-icons';
 import {
 	faSquareXTwitter,
 	faSquareInstagram,
 	faSquareGithub,
 	faDiscord,
 } from '@fortawesome/free-brands-svg-icons';
-import Footer from '../components/Footer';
 
 function Contact() {
 	return (
@@ -157,7 +159,6 @@ function Contact() {
 					</a>
 				</div>
 			</Container>
-			<Footer />
 		</>
 	);
 }

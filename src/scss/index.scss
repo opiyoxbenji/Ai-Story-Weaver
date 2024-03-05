@@ -43,7 +43,7 @@ h5 {
 // Paragraph
 .p {
 	margin-top: 3;
-}
+} 
 
 // Links
 .link {
@@ -72,51 +72,35 @@ h5 {
 }
 
 // Navbar
-// .navbar {
-// 	background-color: #34365d;
-// 	font-size: 1.2rem;
-// 	&-brand {
-// 		color: #0cd354;
-// 		transition: color 0.3s;
-// 		&:hover {
-// 			color: white;
-// 		}
-// 	}
-// 	&-nav { 
-// 		.nav-link {
-// 			text-decoration: none;
-// 			color: white;
-// 			&.active {
-// 				color: #ffc107;
-// 			}
-// 		}
-// 	}
-// }
 .navbar {
-  background-color: #34365d;
-  font-size: 1.2rem;
-
-  &__brand { // Use an underscore instead of a hyphen for descendants
-    color: #0cd354;
-    transition: color 0.3s;
-
-    &:hover {
-      color: white;
-    }
-  }
-
-  &__nav {
-    .nav-link {
-      text-decoration: none;
-      color: white;
-
-      &.active { // Combine the selectors for better specificity
-        color: #ffc107;
-      }
-    }
-  }
+	background-color: #34365d;
+	font-size: 1.2rem;
+	&-brand {
+		color: #0cd354;
+		transition: color 0.3s;
+		&:hover {
+			color: white;
+		}
+	}
+	&-nav {
+		.nav-link {
+			text-decoration: none;
+			color: white;
+			&.active {
+				color: #ffc107;
+			}
+		}
+	}
 }
 
+// Search bar
+// .search-box {
+//   position: fixed;
+//   bottom: 0;
+//   left: 0;
+//   right: 0;
+//   /* Additional styles for width, padding, etc. */
+// }
 
 // Footer
 .footer {

@@ -1,6 +1,5 @@
-import React from 'react';
-import '../styles/app.css';
-
+import React from 'react'
+import '../scss/app.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
 	faSquareXTwitter,
@@ -11,7 +10,7 @@ import {
 import Footer from '../components/Footer';
 
 function About() {
-	return (
+  return (
 		<div className='team-boxed'>
 			<div className='container'>
 				<div className='intro'>
@@ -105,7 +104,7 @@ function About() {
 			</div>
 			<Footer />
 		</div>
-	);
+  );
 }
 
 export default About

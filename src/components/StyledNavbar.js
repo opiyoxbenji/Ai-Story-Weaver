@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import '../styles/index.scss';
+import '../scss/index.scss';
 
 function Navbar() {
 	return (
@@ -24,33 +24,24 @@ function Navbar() {
 							<li className='nav-item'>
 								<NavLink
 									to='/'
-									className={`nav-link ${
-										window.location.pathname === '/'
-											? 'active'
-											: ''
-									}`}>
+									className='nav-link'
+									activeClassName='active'>
 									Home
 								</NavLink>
 							</li>
 							<li className='nav-item'>
 								<NavLink
 									to='/about'
-									className={`nav-link ${
-										window.location.pathname === '/about'
-											? 'active'
-											: ''
-									}`}>
+									className='nav-link'
+									activeClassName='active'>
 									About
 								</NavLink>
 							</li>
 							<li className='nav-item'>
 								<NavLink
 									to='/contact'
-									className={`nav-link ${
-										window.location.pathname === '/contact'
-											? 'active'
-											: ''
-									}`}>
+									className='nav-link'
+									activeClassName='active'>
 									Contact
 								</NavLink>
 							</li>

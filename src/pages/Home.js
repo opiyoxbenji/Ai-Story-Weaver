@@ -1,9 +1,10 @@
 import React from 'react';
-// import styles from '../styles/page.css';
+// import { useState } from 'react';
+import '../scss/app.css';
 
 function Home() {
 	return (
-		<div className="kake">
+		<div className='App'>
 			
 		</div>
 	);
