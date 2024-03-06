@@ -7,7 +7,7 @@ import {
 	faSquareGithub,
 	faDiscord,
 } from '@fortawesome/free-brands-svg-icons';
-import Footer from '../components/Footer';
+// import Footer from '../components/Footer';
 
 function About() {
   return (
@@ -102,7 +102,7 @@ function About() {
 					</div>
 				</div>
 			</div>
-			<Footer />
+			
 		</div>
   );
 }

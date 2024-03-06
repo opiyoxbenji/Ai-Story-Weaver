@@ -1,34 +1,34 @@
 .App {
-  display: grid;
-  grid-template-columns: auto 200px;
-  gap: 20px;
-  max-width: 1000px;
-  margin: 0 auto;
-  min-height: 100vh;
-  padding: 20px;
+	display: grid;
+	grid-template-columns: auto 200px;
+	gap: 20px;
+	max-width: 1000px;
+	margin: 0 auto;
+	min-height: 100vh;
+	padding: 20px;
 }
 
 .Column {
-  color: white;
+	color: white;
 }
 
 .Title {
-  padding: 20px;
-  margin-bottom: 20px;
-  border-radius: 10px;
-  color: black;
-  /* background-color: rgb(218, 255, 170); */
-  background-color: #1b92bd;
+	padding: 20px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	color: black;
+	/* background-color: rgb(218, 255, 170); */
+	background-color: #1b92bd;
 }
 
 .Content {
-  height: calc(100vh - 200px);
-  overflow-y: scroll;
-  margin-bottom: 20px;
+	height: calc(100vh - 200px);
+	overflow-y: scroll;
+	margin-bottom: 20px;
 }
 
 ::-webkit-scrollbar {
-  display: none;
+	display: none;
 }
 
 .team-boxed .item {
@@ -95,4 +95,101 @@
 .social-media-icons-white a {
 	color: #124272;
 	font-size: 2rem;
+}
+
+.app {
+	background-color: #adefd1ff;
+	display: flex;
+	/* height: 100vh;
+	overflow: hidden; */
+}
+
+.side-bar {
+	background-color: #00203fff;
+	height: 100vh;
+	width: 244px;
+	display: flex;
+	flex: 0 0 244px;
+	flex-grow: 0;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+button {
+	border: solid 0.5px rgba(255, 255, 255, 0.5);
+	background-color: #31473a;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 10px;
+}
+
+nav.p {
+	border-top: solid 0.5px rgba(255, 255, 255, 0.5);
+	padding: 10px;
+	margin: 10px;
+}
+
+.history {
+	padding: 10px;
+	margin: 10px;
+	height: 100%;
+}
+
+.history li {
+	list-style-type: none;
+	padding: 15px 0;
+	cursor: pointer;
+}
+
+.main {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+}
+
+.info {
+	color: rgba(255, 255, 255, 0.5);
+	font-size: 11px;
+	padding: 10px;
+}
+
+.bottom-section {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.input-container {
+	position: relative;
+	width: 100%;
+	max-width: 650px;
+}
+
+input {
+	width: 100%;
+	border: none;
+	font-size: 30px;
+	background-color: rgba(255, 255, 255, 0.05);
+	padding: 12px 15px;
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.05) 0 54px 55px,
+		rgba(0, 0, 0, 0.05) 0 -12px 30px, rgba(0, 0, 0, 0.05) 0 4px 6px,
+		rgba(0, 0, 0, 0.05) 0 12px 3px, rgba(0, 0, 0, 0.05) 0 -3px 5px;
+}
+
+input:focus {
+	outline: none;
+}
+
+#submit {
+	position: absolute;
+	bottom: 15px;
+	right: 0;
+	cursor: pointer;
 }
