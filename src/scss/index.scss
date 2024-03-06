@@ -12,7 +12,7 @@ body {
 		'Helvetica Neue', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	background-color: #1fe99c;
+	background-color: #DDDBDE;
 }
 
 code {
@@ -73,10 +73,10 @@ h5 {
 
 // Navbar
 .navbar {
-	background-color: #34365d;
+	background-color: #3B373B;
 	font-size: 1.2rem;
 	&-brand {
-		color: #0cd354;
+		color: #DDDBDE;
 		transition: color 0.3s;
 		&:hover {
 			color: white;
@@ -108,8 +108,8 @@ h5 {
 	bottom: 0;
 	left: 0;
 	width: 100%;
-	background-color: #34365d;
-	color: #0cd354;
+	background-color: #3B373B;
+	color: #DDDBDE;
 	padding-top: 0.5rem;
 }
 

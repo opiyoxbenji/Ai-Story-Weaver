@@ -98,14 +98,14 @@
 }
 
 .app {
-	background-color: #adefd1ff;
+	background-color: #CAD4DF;
 	display: flex;
 	/* height: 100vh;
 	overflow: hidden; */
 }
 
 .side-bar {
-	background-color: #00203fff;
+	background-color: #656E77;
 	height: 100vh;
 	width: 244px;
 	display: flex;
